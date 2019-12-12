@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+
+head
+  title= title
+  include partials/head.pug
+  link(rel='stylesheet', href='/stylesheets/chat.css')
+
+body(class = 'general-body')
+  div(class='banner')
+    h1(class='banner-align-left') Hearts - Rules
+
+  div
+    h2(style='color:whitesmoke') Rules
+    ul
+      li Hearts is a card game utilizing a standard 52 card deck.
+      form(action='/lobby/page', method='POST')
+        //- tr
+        //-   th Name
+        //- each n in products
+        //-  tr
+        //-   td #{n.name}
+               
