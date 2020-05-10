@@ -52,9 +52,3 @@ $ npm run start:dev
 The app will then be running locally, and can be accessed at:
 
 `localhost:3000`
-
-## Heroku Link
-
-
-
-## Contributors ✨
